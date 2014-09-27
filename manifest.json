@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 2,
+  "name" : "reloadAll",
+  "version" : "0.0.1",
+  "icons" : {
+    "40" : "images/icon.png"
+  },
+  "browser_action" : {
+    "default_icon" : "images/icon.png",
+    "default_title" : "reload all the tabs"
+  },
+  "permissions" : [
+    "activeTab",
+    "tabs"
+  ],
+  "background" : {
+    "scripts": ["event.js"]
+  },
+  "author": "gokulkrishh"
+}
